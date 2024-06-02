@@ -1,0 +1,20 @@
+body{
+ background-color: #13274F;
+}
+.clock {
+  font-size: 80px;
+  color: #72A0C1;
+  text-align: center;
+  -webkit-animation: clock 1s ease-in-out infinite alternate;
+  -moz-animation: clock 1s ease-in-out infinite alternate;
+  animation: clock 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes clock {
+  from {
+    text-shadow: 0 0 10px #5072A7, 0 0 20px #7CB9E8, 0 0 30px #7CB9E8, 0 0 40px #7CB9E8, 0 0 50px #7CB9E8, 0 0 60px #7CB9E8, 0 0 70px #7CB9E8;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #72A0C1, 0 0 30px #7CB9E8, 0 0 40px #6CB4EE, 0 0 50px #6CB4EE, 0 0 60px #6CB4EE, 0 0 70px #6CB4EE, 0 0 80px #6CB4EE;
+  }
+}
